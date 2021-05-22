@@ -1,0 +1,14 @@
+
+name: 'PR updater'
+description: 'Update pr title and body'
+author: 'randilfernando<randil.fernando@outlook.com>'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+inputs:
+  title:
+    description: 'PR title'
+    required: false
+  body:
+    description: 'PR body'
+    required: false
