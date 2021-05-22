@@ -1,5 +1,5 @@
 
-name: 'PR updater'
+name: 'Pull request updater'
 description: 'Update pr title and body'
 author: 'randilfernando<randil.fernando@outlook.com>'
 runs:
